@@ -1,0 +1,146 @@
+DatasetHeader Begin
+	Version		= "6.2"
+	Name		= "SPOT6_201504140208470_233_210_MS.ers"
+	RasterInfo Begin
+		RegionInfo Begin
+			Type		= Polygon
+			RegionName	= "All"
+			SubRegion	= {
+					0	0
+					0	2108
+					2308	2108
+					2308	0
+			}
+		RegionInfo End
+	RasterInfo End
+	Algorithm Begin
+		Version		= "6.2"
+		Description	= "Algorithm Not Yet Saved"
+		Author		= "ER Mapper"
+		ViewMode	= Planimetric2D
+		BackGroundColourSet	= No
+		BackGroundColour	= 0,0,0
+		ConvertToGreyscale	= No
+		CoordinateSpace Begin
+			Datum		="USGRS80"
+			Projection	="TAIWAN"
+			CoordinateType	= EN
+			Units		="METERS"
+			Rotation	= 0:0:0.0
+		CoordinateSpace End
+		TopLeftCorner Begin
+			Eastings	=  262594.000
+			Northings	=  2779638.000
+		TopLeftCorner End
+		BottomRightCorner Begin
+			Eastings	=  275242.000
+			Northings	=  2765790.000
+		BottomRightCorner End
+		SuperSampling	= Bilinear
+		MosaicType	= Overlay
+		PageSize Begin
+			PageConstraint	= None
+			PageWidth	= 8.5
+			PageHeight	= 11
+			TopBorder	= 0
+			BottomBorder	= 1.693548
+			LeftBorder	= 0
+			RightBorder	= 0
+			Scale		=    58582.677
+			PageExtents Begin
+				TopLeftCorner Begin
+					Eastings	=  262594.000
+					Northings	=  2779638.000
+				TopLeftCorner End
+				BottomRightCorner Begin
+					Eastings	=  275242.000
+					Northings	=  2765790.000
+				BottomRightCorner End
+			PageExtents End
+			ContentExtents Begin
+				TopLeftCorner Begin
+					Eastings	=  262594.000
+					Northings	=  2779638.000
+				TopLeftCorner End
+				BottomRightCorner Begin
+					Eastings	=  275242.000
+					Northings	=  2765790.000
+				BottomRightCorner End
+			ContentExtents End
+		PageSize End
+		Surface Begin
+			Name		= "Pseudocolor"
+			Transparency	= 0
+			ColorMode	= DATASET
+			LookupTable	= "greyscale"
+			Stream Begin
+				Type		= Blue
+				Description	= "Blue Layer"
+				Dataset		= "SPOT6_201504140208470_233_210_MS.1.bsq.ers"
+				DoStaticShade	= No
+				SunAzimuth	= 45:0:0.0
+				SunAngle	= 45:0:0.0
+				StreamInput Begin
+					StreamInputID	= 1
+				StreamInput End
+				Formula Begin
+					Description	= "Default Formula"
+					Formula		= "INPUT1"
+					FormulaArg Begin
+						StreamInput	= 1
+						BandNumber	= 1
+						BandId Begin
+						Value		= "Pseudo Layer"
+						BandId End
+					FormulaArg End
+				Formula End
+			Stream End
+			Stream Begin
+				Type		= Green
+				Description	= "Green Layer"
+				Dataset		= "SPOT6_201504140208470_233_210_MS.2.bsq.ers"
+				DoStaticShade	= No
+				SunAzimuth	= 45:0:0.0
+				SunAngle	= 45:0:0.0
+				StreamInput Begin
+					StreamInputID	= 1
+				StreamInput End
+				Formula Begin
+					Description	= "Default Formula"
+					Formula		= "INPUT1"
+					FormulaArg Begin
+						StreamInput	= 1
+						BandNumber	= 1
+						BandId Begin
+						Value		= "Pseudo Layer"
+						BandId End
+					FormulaArg End
+				Formula End
+			Stream End
+			Stream Begin
+				Type		= Red
+				Description	= "Red Layer"
+				Dataset		= "SPOT6_201504140208470_233_210_MS.3.bsq.ers"
+				DoStaticShade	= No
+				SunAzimuth	= 45:0:0.0
+				SunAngle	= 45:0:0.0
+				StreamInput Begin
+					StreamInputID	= 1
+				StreamInput End
+				Formula Begin
+					Description	= "Default Formula"
+					Formula		= "INPUT1"
+					FormulaArg Begin
+						StreamInput	= 1
+						BandNumber	= 1
+						BandId Begin
+						Value		= "Pseudo Layer"
+						BandId End
+					FormulaArg End
+				Formula End
+			Stream End
+		Surface End
+		DotsPerInchAcross	= 96
+		DotsPerInchDown	= 96
+	Algorithm End
+DatasetHeader End

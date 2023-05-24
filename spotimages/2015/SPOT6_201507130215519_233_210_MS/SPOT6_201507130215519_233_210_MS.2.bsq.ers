@@ -1,0 +1,30 @@
+DatasetHeader Begin
+	Version		= "6.2"
+	Name		= "SPOT6_201507130215519_233_210_MS.2.bsq.ers"
+	DataSetType	= ERStorage
+	DataType	= Raster
+	ByteOrder	= LSBFirst
+	DataFile	= "SPOT6_201507130215519_233_210_MS.2.bsq"
+	CoordinateSpace Begin
+		Datum		="USGRS80"
+		Projection	="TAIWAN"
+		CoordinateType	= EN
+		Units		="METERS"
+		Rotation	= 0:0:0.0
+	CoordinateSpace End
+	RasterInfo Begin
+		CellType	= Unsigned16BitInteger
+		NullCellValue	= 0
+		CellInfo Begin
+			Xdimension	= 6.000
+			Ydimension	= 6.000
+		CellInfo End
+		NrOfLines	= 2308
+		NrOfCellsPerLine	= 2108
+		RegistrationCoord Begin
+			Eastings	=  262594.000
+			Northings	=  2779638.000
+		RegistrationCoord End
+		NrOfBands	= 1
+	RasterInfo End
+DatasetHeader End

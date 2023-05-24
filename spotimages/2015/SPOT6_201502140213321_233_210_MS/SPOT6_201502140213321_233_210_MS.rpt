@@ -1,0 +1,69 @@
+============================================================================
+    PC_MOSAIC/CLIPIMG LEVEL 3  MOSAIC PRODUCT REPORT   [ SPOT6_201502140213321_233_210_MS ]
+============================================================================
+PRODUCT: CSR_A0000508_SP6H1M_20150214  BSQ  LEVEL 3 
+PROCESSED: TAIWAN SRSL,NCU, PC-MOSAIC ON 20210412
+FILE ID:  SPOT6_201502140213321_233_210_MS
+ 
+    IMAGE PARAMETERS:
+**************************************************************************
+Input Scene:
+MSGPS File ID:  A0000508 (source image)      ON 20170328
+(27030,10333) -- from (line:4182, sample:1612) to (line:6489, sample:3719)
+ 
+Pixel Spacing:
+	Sample : 6.000 (meter), 	Line  : 6.000 (meter)
+Ground Coverage:
+	Height : 13848.000 (meter),	Width : 12648.000 (meter)
+ 
+SCENE CENTER PARAMETERS :
+ GMT:  2015-02-14T02:13:45.264
+Latitude    :    25.0625061,	Longitude     :   121.1875130
+Northing    :   2772714.000,	Easting       :    268918.000
+Line Number :       1154.50,	Sample Number :       1054.50
+ 
+CORNER PARAMETERS:                         MAP SYSTEM :TWD97
+CORNER    Latitude     Longitude      Northing       Easting    Line   Pixel
+ UL:    25.1250837   121.1248939   2779638.000    262594.000       1       1
+ UR:    25.1249249   121.2503225   2779638.000    275242.000       1    2108
+ LR:    24.9999021   121.2500686   2765790.000    275242.000    2308    2108
+ LL:    25.0000600   121.1247672   2765790.000    262594.000    2308       1
+ 
+SCENE PARAMETERS :
+ Incidence Angle  :       9.117863,   Orientation :     308.864092
+Azimuth          :      140.526168,   Elevation   :      42.548386
+ View Angle Along Track :       3.134310,   View Angle Across Track :       7.497199
+View Angle    :8.287114
+
+PHYSICAL GAIN    :
+	8.010000  9.350000  10.340000  13.880000
+ 
+PHYSICAL BIAS :
+	       0         0         0         0
+ 
+        F I L E    L I S T I N G : (MOSAIC format)
+***********************************************************
+File                              FileName
+Imagery File( Band 1 BLUE )       SPOT6_201502140213321_233_210_MS.1.bsq
+Imagery File( Band 2 GREEN )      SPOT6_201502140213321_233_210_MS.2.bsq
+Imagery File( Band 3 RED )        SPOT6_201502140213321_233_210_MS.3.bsq
+Imagery File( Band 4 NIR )        SPOT6_201502140213321_233_210_MS.4.bsq
+Image Report Files                SPOT6_201502140213321_233_210_MS.RPT
+                                                           
+        NOTES FOR READING THIS IMAGE : 
+***********************************************************
+1. It is 16 bits BSQ(Bands Sequential) structure product. Each
+   imagery file is for one band.
+2. Image Size :    2308  lines   *    2108   samples.
+3. Image(Line:1, Sample:1) is located at imagery file (record:1, byte:1).
+4. Geographic Coordinate is defined at image [CORNER].
+5. Image Coordinate is defined at [Pixel Center].
+
+        GEOMETRIC QUALITY ASSESSMENT REPORT : 
+***********************************************************
+DTM File Description : TWD97
+Map Projection : TWD97
+Image Resampling Method : CC
+
+Reflectance Radiance = Digital Count / Physical GAIN  (Unit: W/m^2/£gm/sr)
+
